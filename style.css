@@ -1,0 +1,27 @@
+body {
+    font-family: 'Gentium Book Plus', serif;
+    font-family: ' Open Sans', sans-serif;
+    background-color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.left-header {
+    display: flex;
+    justify-content: space-around;
+}
